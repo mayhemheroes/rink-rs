@@ -1,0 +1,7 @@
+project: rink-rs
+target: query
+
+cmds:
+  - cmd: /query
+  - cmd: /query_no_inst @@
+    libfuzzer: false
